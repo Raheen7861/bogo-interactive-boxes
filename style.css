@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ff6699;
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 15px;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .box input[type="radio"] {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+  }
+  
+  label {
+    display: block;
+    cursor: pointer;
+    padding-left: 30px;
+  }
+  
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .discount {
+    background-color: #ff6699;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .price s {
+    font-weight: normal;
+    color: #999;
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .subtext {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .most-popular {
+    background-color: #ff6699;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transform: rotate(-2deg);
+  }
+  
+  .options {
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .expandable.expanded .options {
+    display: block;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+    align-items: center;
+  }
+  
+  select {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: #ff6699;
+  }
+  
+  .total {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff6699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .powered {
+    font-size: 12px;
+    color: #aaa;
+  }
+  
